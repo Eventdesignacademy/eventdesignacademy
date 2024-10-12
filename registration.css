@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+  margin-top: 10%;
+  background-color: #9e351a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Registration form specific styles */
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content input[type="text"],
+.content input[type="email"],
+.content input[type="tel"],
+.content input[type="date"],
+.content input[type="number"],
+.content select,
+.content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.content select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.content textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.content button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #d48224;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.content button[type="submit"]:hover {
+  background: #b6865f;
+}
+.logo-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  
+  .circular-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 55%;
+    background-color: #9a2c13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .circular-logo img {
+    max-width: 70%;
+    max-height: 70%;
+  }
